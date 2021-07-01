@@ -1,7 +1,7 @@
 # jetEngine
  javascript page update engine
 
-### What does it do?
+### What can it do?
 it can update page or element content
 
 it is so good for dinamic web sites
