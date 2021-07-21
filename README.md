@@ -11,4 +11,31 @@ you can use it in sites or weblogs for update page content or pagination
 ### How to use it?
 it's realy comfortable.
 
-to be continue ...
+it has three methods
+
+_(element name (str), element node (int))
+.Fade(time (int), percentage (int 1-100), complete)
+.Load(
+	page url (str), 
+	element in page (str), 
+	complete (function(fn)), 
+	content or Element (true = content of selected element & false = selected element), 
+	element node (int), 
+	delete content (true = delete & false = add content)
+)
+for example: 
+```javascript
+var EU = '.post';
+var pageAddr = '?page=2';
+
+_(EU).Fade(.4, 0, function(fn){
+	// Fade element to 0 in 0.4 second
+	fn.Load(pageAddr, '.content', function(fn){
+		// load '.content' from 'pageAddr'
+		fn.Fade(.4, 100, function(){
+		// Fade _(EU) to 0 in 0.4 second
+			alert(the content was load)
+		})
+	})
+})
+```
