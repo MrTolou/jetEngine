@@ -38,7 +38,7 @@ _(EU).Fade(.4, 0, function(fn){
 	// Fade element to 0 in 0.4 second
 	fn.Load(pageAddr, '.content', function(fn){
 		// load '.content' from 'pageAddr'
-		fn.Fade(.4, 100, function(){
+		fn.Fade(.4, 100, function(fn){
 		// Fade _(EU) to 0 in 0.4 second
 			alert(the content was load)
 		})
