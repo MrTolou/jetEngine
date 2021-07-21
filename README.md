@@ -13,6 +13,7 @@ it's realy comfortable.
 
 it has three methods
 
+```javascript
 _(element name (str), element node (int))
 .Fade(time (int), percentage (int 1-100), complete)
 .Load(
@@ -23,7 +24,8 @@ _(element name (str), element node (int))
 	element node (int), 
 	delete content (true = delete & false = add content)
 )
-for example: 
+```
+### Example: 
 ```javascript
 var EU = '.post';
 var pageAddr = '?page=2';
