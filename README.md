@@ -19,7 +19,7 @@ it has three methods
 
 ```javascript
 _(element name (str), element node (int))
-.Fade(time (int), percentage (int 1-100), complete)
+.Fade(time (int), percentage (int 1-100), complete (function(fn)))
 .Load(
 	page url (str), 
 	element in page (str), 
