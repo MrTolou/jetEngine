@@ -9,6 +9,8 @@ it is so good for dinamic web sites
 
 you can use it in sites or weblogs for update page content or pagination
 
+![pagination](https://raw.githubusercontent.com/MrTolou/jetEngine/master/images/pagination.png)
+
 ### How to use it?
 it's realy comfortable.
 
