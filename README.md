@@ -11,6 +11,7 @@ you can use it in sites or weblogs for update page content or pagination
 
 ![pagination](https://raw.githubusercontent.com/MrTolou/jetEngine/master/images/pagination.png)
 
+This plugin used in 'http://puzzelink.ir/flag/all-posts' site
 ### How to use it?
 it's realy comfortable.
 
